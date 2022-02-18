@@ -1,0 +1,52 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card2 {
+    user-select: none;
+    position: absolute;
+    top: 5vh;
+    left: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(189, 187, 187);
+    width: 100vh;
+    height: 80vh;
+    border-radius: 15px;
+    padding-bottom: 5vh;
+}
+
+.checkout-buttons {
+    position: absolute;
+    left: 40%;
+    border-radius: 15px;
+    width: 20%;
+    height: 8%;
+    background-color: rgb(89, 209, 65);
+    cursor: pointer;
+}
+
+.checkout-buttons:hover {
+    background-color: rgb(65, 151, 48);
+}
+
+input {
+    border: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 12px;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    background-color: hsla(0, 0%, 100%, 0);
+    cursor: pointer;
+}
+
+.image {
+    user-select: none;
+    border-radius: 10px;
+}
